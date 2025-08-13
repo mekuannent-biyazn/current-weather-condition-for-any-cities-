@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import DarkModeToggle from "../darck_brightMode/Darck-Bright";
 
 function Weather() {
@@ -138,14 +137,6 @@ function Weather() {
                   <p className="font-medium">Pressure</p>
                   <p>{weatherData.main.pressure} hPa</p>
                 </div>
-              </div>
-              <div className="mt-6">
-                <Link
-                  to="/pokeapi"
-                  className="inline-block px-4 py-2 bg-indigo-600 hover:bg-indigo-500 rounded text-white"
-                >
-                  Go to PokéAPI
-                </Link>
               </div>
             </div>
 
